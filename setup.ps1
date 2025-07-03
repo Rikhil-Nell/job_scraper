@@ -168,10 +168,17 @@ try {
     
     # Step 6: Run database migrations
     Write-Step 6 "Running database migrations..."
-    
+
+    # Add this command to forcefully reset the database and avoid interactive prompts
+    Write-Host "Ensuring a clean database state by running migrate reset..." -ForegroundColor Cyan
+    if (-not (Invoke-SafeCommand "npx" @("prisma", "migrate", "reset", "--force"))) {
+        Write-ErrorMsg "Failed to reset the database. Please check DB connection and permissions."
+        exit 1
+    }
+
+    # Your original command will now run on a clean database without detecting drift
     if (-not (Invoke-SafeCommand "npx" @("prisma", "migrate", "dev", "--name", "init"))) {
-        Write-WarningMsg "Database migration failed. Please check your database connection."
-        Write-Host "You can run 'npx prisma migrate dev' manually after fixing the database connection." -ForegroundColor Yellow
+        Write-WarningMsg "Database migration failed. Please check the output above."
     } else {
         Write-Success "Database migrations completed!"
     }

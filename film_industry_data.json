@@ -1,0 +1,1744 @@
+{
+  "jobs": [
+    {
+      "title": "Senior Video Editor - Netflix Original Series",
+      "description": "Seeking experienced editor for high-profile streaming series. Must have extensive experience with Avid Media Composer and collaborative post-production workflows.",
+      "location": "Madrid",
+      "source": "Generated"
+    },
+    {
+      "title": "Director of Photography - Independent Film",
+      "description": "Looking for skilled cinematographer to shoot independent feature film. RED camera experience and natural lighting expertise required.",
+      "location": "Hamburg",
+      "source": "Generated"
+    },
+    {
+      "title": "VFX Supervisor - Marvel Studios",
+      "description": "VFX Supervisor needed for major superhero film. Strong background in Maya, Nuke, and team management essential.",
+      "location": "Cardiff",
+      "source": "Generated"
+    },
+    {
+      "title": "Sound Designer - A24 Horror Film",
+      "description": "Sound designer for atmospheric horror film. Experience with Pro Tools, Foley recording, and sound library management preferred.",
+      "location": "Milan",
+      "source": "Generated"
+    },
+    {
+      "title": "Production Designer - HBO Max Series",
+      "description": "Production designer for fantasy series set in medieval times. Strong attention to historical detail and large-scale set design required.",
+      "location": "Venice",
+      "source": "Generated"
+    },
+    {
+      "title": "Cinematographer - Documentary Film",
+      "description": "Cinematographer for environmental documentary. Drone operation license and wildlife filming experience preferred.",
+      "location": "Chicago",
+      "source": "Generated"
+    },
+    {
+      "title": "Assistant Director - Warner Bros Feature",
+      "description": "Assistant director for big-budget action film. Strong organizational skills and high-pressure set experience required.",
+      "location": "Hamburg",
+      "source": "Generated"
+    },
+    {
+      "title": "Makeup Department Head - Disney+ Fantasy",
+      "description": "Makeup department head for fantasy series. Prosthetics, special effects makeup, and team leadership experience needed.",
+      "location": "Valencia",
+      "source": "Generated"
+    },
+    {
+      "title": "Gaffer - Apple TV+ Drama Series",
+      "description": "Gaffer for critically acclaimed drama series. LED lighting expertise and color temperature mastery required.",
+      "location": "New York",
+      "source": "Generated"
+    },
+    {
+      "title": "Script Supervisor - Amazon Prime Thriller",
+      "description": "Script supervisor for psychological thriller. Continuity experience and meticulous attention to detail essential.",
+      "location": "Hamburg",
+      "source": "Generated"
+    },
+    {
+      "title": "Casting Director - Indie Romance Film",
+      "description": "Casting director for romantic comedy film. Strong industry connections and talent evaluation skills required.",
+      "location": "Mumbai",
+      "source": "Generated"
+    },
+    {
+      "title": "Location Manager - Netflix Action Series",
+      "description": "Location manager for action series. Scouting experience and permit negotiation skills essential.",
+      "location": "San Francisco",
+      "source": "Generated"
+    },
+    {
+      "title": "Stunt Coordinator - Fast & Furious Franchise",
+      "description": "Stunt coordinator for major action franchise. Safety certification and wire work experience required.",
+      "location": "Lyon",
+      "source": "Generated"
+    },
+    {
+      "title": "Costume Designer - Period Drama Film",
+      "description": "Costume designer for 1940s period drama. Historical research skills and fabric knowledge essential.",
+      "location": "Milan",
+      "source": "Generated"
+    },
+    {
+      "title": "Boom Operator - Sitcom Production",
+      "description": "Boom operator for multi-camera sitcom. Live audience experience and microphone technique expertise required.",
+      "location": "Pune",
+      "source": "Generated"
+    }
+  ],
+  "professionals": [
+    {
+      "firstName": "Jessica",
+      "lastName": "Jones",
+      "role": "Director",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Avid Media Composer",
+        "Logic Pro",
+        "Adobe Premiere Pro",
+        "Foley",
+        "After Effects",
+        "Script Analysis",
+        "Final Cut Pro",
+        "Blender"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Wilson",
+      "role": "Location Manager",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Avid Media Composer",
+        "Motion Graphics",
+        "Storyboarding",
+        "Budgeting",
+        "Drone Operation",
+        "Foley",
+        "Script Analysis",
+        "Adobe Premiere Pro"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Glasgow"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Taylor",
+      "role": "Makeup Artist",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Storyboarding",
+        "Final Cut Pro",
+        "Drone Operation",
+        "Cinema 4D",
+        "Maya"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Austin"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Lee",
+      "role": "Producer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Cinema 4D",
+        "Color Grading",
+        "After Effects",
+        "Drone Operation",
+        "Budgeting"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Lopez",
+      "role": "Production Designer",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Pro Tools",
+        "Steadicam",
+        "Foley"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Berlin"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Brown",
+      "role": "Boom Operator",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Final Cut Pro",
+        "After Effects",
+        "Drone Operation",
+        "Storyboarding",
+        "ARRI Alexa"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Pune"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Moore",
+      "role": "Location Manager",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "RED Camera",
+        "Blender",
+        "Maya",
+        "Cinema 4D",
+        "Logic Pro",
+        "Color Grading"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Berlin"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Garcia",
+      "role": "Grip",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Drone Operation",
+        "Final Cut Pro",
+        "Motion Graphics",
+        "ARRI Alexa",
+        "Storyboarding"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Thompson",
+      "role": "Visual Effects",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Motion Graphics",
+        "Color Grading",
+        "Final Cut Pro",
+        "Storyboarding",
+        "After Effects",
+        "Drone Operation",
+        "Script Analysis"
+      ],
+      "experience": "Lead Editor - \"Midnight Stories\" (2023)",
+      "location": "New York"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Anderson",
+      "role": "Editor",
+      "bio": "Sound engineer specializing in location recording and post-production audio mixing.",
+      "skills": [
+        "RED Camera",
+        "Logic Pro",
+        "Motion Graphics",
+        "Steadicam",
+        "Avid Media Composer",
+        "Script Analysis",
+        "Cinema 4D"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Hyderabad"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Anderson",
+      "role": "Gaffer",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Steadicam",
+        "Color Grading",
+        "Adobe Premiere Pro",
+        "After Effects",
+        "Drone Operation",
+        "Avid Media Composer"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "New York"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Martin",
+      "role": "Makeup Artist",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Steadicam",
+        "After Effects",
+        "Blender",
+        "Drone Operation",
+        "Storyboarding",
+        "Logic Pro",
+        "RED Camera",
+        "Script Analysis"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Chicago"
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Williams",
+      "role": "Costume Designer",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Motion Graphics",
+        "Steadicam",
+        "Script Analysis",
+        "Drone Operation",
+        "Maya",
+        "Blender"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Cannes"
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Wilson",
+      "role": "Screenwriter",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Motion Graphics",
+        "RED Camera",
+        "Drone Operation",
+        "Blender",
+        "Storyboarding"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Stephanie",
+      "lastName": "Jackson",
+      "role": "Production Designer",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Color Grading",
+        "Storyboarding",
+        "Cinema 4D",
+        "Final Cut Pro",
+        "ARRI Alexa",
+        "RED Camera",
+        "Avid Media Composer"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Ashley",
+      "lastName": "Davis",
+      "role": "Production Designer",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Steadicam",
+        "Logic Pro",
+        "Motion Graphics",
+        "RED Camera",
+        "Color Grading",
+        "Maya",
+        "Avid Media Composer",
+        "After Effects"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Lopez",
+      "role": "Grip",
+      "bio": "Sound engineer specializing in location recording and post-production audio mixing.",
+      "skills": [
+        "Color Grading",
+        "After Effects",
+        "Maya",
+        "Adobe Premiere Pro",
+        "Foley",
+        "Blender",
+        "Storyboarding",
+        "Final Cut Pro"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Davis",
+      "role": "Production Designer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Blender",
+        "Adobe Premiere Pro",
+        "Storyboarding",
+        "Steadicam",
+        "ARRI Alexa",
+        "Logic Pro"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Hamburg"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "role": "Script Supervisor",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Cinema 4D",
+        "Color Grading",
+        "Drone Operation"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Vancouver"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Anderson",
+      "role": "Screenwriter",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Script Analysis",
+        "Logic Pro"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "New York"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Jones",
+      "role": "Sound Designer",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Drone Operation",
+        "Steadicam",
+        "Blender",
+        "ARRI Alexa",
+        "Avid Media Composer"
+      ],
+      "experience": "Lead Editor - \"Midnight Stories\" (2023)",
+      "location": "Milan"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Anderson",
+      "role": "Boom Operator",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Drone Operation",
+        "Final Cut Pro",
+        "Budgeting",
+        "Steadicam",
+        "RED Camera",
+        "Color Grading",
+        "Motion Graphics"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Jackson",
+      "role": "Script Supervisor",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Drone Operation",
+        "Motion Graphics",
+        "Adobe Premiere Pro",
+        "RED Camera",
+        "Cinema 4D",
+        "Foley",
+        "Logic Pro"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Milan"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Wilson",
+      "role": "Casting Director",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Foley",
+        "Pro Tools",
+        "Drone Operation",
+        "Blender"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Austin"
+    },
+    {
+      "firstName": "Ashley",
+      "lastName": "Lee",
+      "role": "Location Manager",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Budgeting",
+        "Steadicam",
+        "Motion Graphics"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Milan"
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Perez",
+      "role": "Visual Effects",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Blender",
+        "Avid Media Composer"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Berlin"
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Thompson",
+      "role": "Screenwriter",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Steadicam",
+        "Final Cut Pro",
+        "After Effects",
+        "Cinema 4D",
+        "Drone Operation"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Paris"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Rodriguez",
+      "role": "Location Manager",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Maya",
+        "Steadicam",
+        "Pro Tools",
+        "RED Camera",
+        "Budgeting"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Cannes"
+    },
+    {
+      "firstName": "Ashley",
+      "lastName": "Gonzalez",
+      "role": "Casting Director",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Color Grading",
+        "Logic Pro",
+        "Storyboarding",
+        "Motion Graphics"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Rodriguez",
+      "role": "Location Manager",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Maya",
+        "Logic Pro",
+        "RED Camera",
+        "Cinema 4D",
+        "Adobe Premiere Pro",
+        "After Effects"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Los Angeles"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Rodriguez",
+      "role": "Gaffer",
+      "bio": "Sound engineer specializing in location recording and post-production audio mixing.",
+      "skills": [
+        "Storyboarding",
+        "Blender",
+        "RED Camera"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Hyderabad"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Thomas",
+      "role": "Stunt Coordinator",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Cinema 4D",
+        "RED Camera",
+        "Blender",
+        "After Effects",
+        "Storyboarding"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Rome"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Thompson",
+      "role": "Gaffer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Foley",
+        "Final Cut Pro",
+        "Avid Media Composer",
+        "Budgeting"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Wilson",
+      "role": "Boom Operator",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Foley",
+        "Pro Tools",
+        "Drone Operation",
+        "Script Analysis",
+        "Steadicam",
+        "Maya",
+        "Cinema 4D",
+        "Blender"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Cardiff"
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Moore",
+      "role": "Makeup Artist",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Cinema 4D",
+        "Foley",
+        "Motion Graphics",
+        "ARRI Alexa",
+        "Steadicam",
+        "Pro Tools",
+        "After Effects",
+        "Color Grading"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Martinez",
+      "role": "Script Supervisor",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "RED Camera",
+        "Maya",
+        "ARRI Alexa",
+        "Logic Pro"
+      ],
+      "experience": "Lead Editor - \"Midnight Stories\" (2023)",
+      "location": "Glasgow"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Martinez",
+      "role": "Location Manager",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Blender",
+        "After Effects",
+        "Storyboarding"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Mumbai"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Thomas",
+      "role": "Visual Effects",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Blender",
+        "Color Grading",
+        "Storyboarding",
+        "Final Cut Pro",
+        "Steadicam",
+        "Cinema 4D",
+        "Script Analysis"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Chicago"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Thomas",
+      "role": "Producer",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Maya",
+        "Drone Operation",
+        "Color Grading",
+        "After Effects",
+        "ARRI Alexa"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Hamburg"
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Anderson",
+      "role": "Boom Operator",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Foley",
+        "After Effects",
+        "Cinema 4D",
+        "Pro Tools",
+        "Maya",
+        "Color Grading"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Bangalore"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Martin",
+      "role": "Script Supervisor",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Drone Operation",
+        "Adobe Premiere Pro",
+        "Storyboarding",
+        "Motion Graphics",
+        "Maya",
+        "Budgeting"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Williams",
+      "role": "Editor",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Storyboarding",
+        "Budgeting",
+        "RED Camera",
+        "Final Cut Pro",
+        "ARRI Alexa",
+        "Steadicam"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Bangalore"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Gonzalez",
+      "role": "Director",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Color Grading",
+        "Logic Pro",
+        "Foley",
+        "Final Cut Pro"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Vancouver"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Thomas",
+      "role": "Editor",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Final Cut Pro",
+        "ARRI Alexa",
+        "Script Analysis",
+        "Logic Pro"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Valencia"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Perez",
+      "role": "Cinematographer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Storyboarding",
+        "ARRI Alexa",
+        "Motion Graphics",
+        "Adobe Premiere Pro",
+        "Maya",
+        "Foley",
+        "Steadicam"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Mumbai"
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Wilson",
+      "role": "Location Manager",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Logic Pro",
+        "Motion Graphics",
+        "Final Cut Pro",
+        "Maya",
+        "Steadicam",
+        "Adobe Premiere Pro"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Madrid"
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Gonzalez",
+      "role": "Casting Director",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Final Cut Pro",
+        "Drone Operation",
+        "Logic Pro"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Anderson",
+      "role": "Editor",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Budgeting",
+        "Drone Operation",
+        "Avid Media Composer",
+        "Color Grading"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Valencia"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Miller",
+      "role": "Script Supervisor",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "RED Camera",
+        "Final Cut Pro",
+        "Maya",
+        "Storyboarding"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Paris"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Thompson",
+      "role": "Production Designer",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Maya",
+        "Storyboarding",
+        "Cinema 4D",
+        "Logic Pro",
+        "Drone Operation",
+        "Pro Tools",
+        "Adobe Premiere Pro",
+        "RED Camera"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Hamburg"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Thomas",
+      "role": "Visual Effects",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "After Effects",
+        "Storyboarding",
+        "Blender",
+        "Pro Tools",
+        "ARRI Alexa",
+        "Drone Operation",
+        "Color Grading",
+        "Adobe Premiere Pro"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Taylor",
+      "role": "Stunt Coordinator",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Script Analysis",
+        "Avid Media Composer",
+        "Motion Graphics",
+        "Steadicam",
+        "Final Cut Pro"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Chicago"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Lopez",
+      "role": "Makeup Artist",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Drone Operation",
+        "Final Cut Pro",
+        "Blender",
+        "Budgeting"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "San Francisco"
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Perez",
+      "role": "Assistant Director",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Drone Operation",
+        "RED Camera",
+        "Adobe Premiere Pro",
+        "Storyboarding",
+        "Logic Pro",
+        "Steadicam",
+        "Foley",
+        "Maya"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Martinez",
+      "role": "Director",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Motion Graphics",
+        "Foley",
+        "ARRI Alexa",
+        "RED Camera",
+        "Avid Media Composer",
+        "Pro Tools",
+        "Maya",
+        "Steadicam"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Chicago"
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Lopez",
+      "role": "Sound Designer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Pro Tools",
+        "Logic Pro",
+        "RED Camera",
+        "Foley",
+        "Blender",
+        "Cinema 4D",
+        "Color Grading"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Taylor",
+      "role": "Producer",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Cinema 4D",
+        "Maya",
+        "Color Grading",
+        "Storyboarding",
+        "Script Analysis",
+        "Drone Operation"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Barcelona"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Davis",
+      "role": "Location Manager",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Storyboarding",
+        "Color Grading",
+        "Cinema 4D",
+        "Steadicam",
+        "Pro Tools",
+        "Script Analysis",
+        "Foley"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Chicago"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Williams",
+      "role": "Cinematographer",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Blender",
+        "Script Analysis",
+        "Steadicam",
+        "Logic Pro"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Chicago"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Anderson",
+      "role": "Production Designer",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Blender",
+        "Pro Tools",
+        "Adobe Premiere Pro"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Vancouver"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Jackson",
+      "role": "Location Manager",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Maya",
+        "Motion Graphics",
+        "Storyboarding",
+        "After Effects",
+        "ARRI Alexa",
+        "Color Grading"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Chennai"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Thompson",
+      "role": "Casting Director",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Motion Graphics",
+        "Drone Operation",
+        "After Effects",
+        "Pro Tools"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Wilson",
+      "role": "Script Supervisor",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Pro Tools",
+        "RED Camera",
+        "Final Cut Pro",
+        "Color Grading",
+        "Motion Graphics",
+        "Cinema 4D",
+        "Script Analysis"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Austin"
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Davis",
+      "role": "Editor",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Storyboarding",
+        "Logic Pro",
+        "Drone Operation",
+        "After Effects",
+        "Cinema 4D",
+        "Final Cut Pro",
+        "RED Camera"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Anderson",
+      "role": "Cinematographer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Blender",
+        "Script Analysis",
+        "Steadicam",
+        "Final Cut Pro",
+        "Maya",
+        "After Effects"
+      ],
+      "experience": "Lead Editor - \"Midnight Stories\" (2023)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Perez",
+      "role": "Stunt Coordinator",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Logic Pro",
+        "Avid Media Composer",
+        "Motion Graphics",
+        "ARRI Alexa",
+        "Drone Operation",
+        "Foley"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Venice"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Brown",
+      "role": "Makeup Artist",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "ARRI Alexa",
+        "Pro Tools",
+        "Drone Operation",
+        "Final Cut Pro",
+        "Script Analysis"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "San Francisco"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Davis",
+      "role": "Sound Designer",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Steadicam",
+        "Budgeting",
+        "Color Grading",
+        "Logic Pro"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Rome"
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Garcia",
+      "role": "Producer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Storyboarding",
+        "Cinema 4D"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Hamburg"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Thompson",
+      "role": "Sound Designer",
+      "bio": "Screenwriter focused on character-driven narratives and contemporary social issues.",
+      "skills": [
+        "Motion Graphics",
+        "Storyboarding",
+        "Blender"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Pune"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Wilson",
+      "role": "Visual Effects",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "After Effects",
+        "Final Cut Pro",
+        "Blender",
+        "Drone Operation"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Paris"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Moore",
+      "role": "Location Manager",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Color Grading",
+        "Motion Graphics",
+        "Blender",
+        "Script Analysis",
+        "RED Camera"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Berlin"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Lopez",
+      "role": "Visual Effects",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Avid Media Composer",
+        "Motion Graphics",
+        "Drone Operation",
+        "Script Analysis",
+        "ARRI Alexa",
+        "Budgeting",
+        "Adobe Premiere Pro"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Hyderabad"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Rodriguez",
+      "role": "Casting Director",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Drone Operation",
+        "Foley",
+        "Pro Tools"
+      ],
+      "experience": "Assistant Director - \"City Lights\" TV Series (2021-2023)",
+      "location": "Venice"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Williams",
+      "role": "Sound Designer",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Storyboarding",
+        "Foley",
+        "After Effects",
+        "Final Cut Pro",
+        "Steadicam",
+        "Maya",
+        "Drone Operation"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "Emma",
+      "lastName": "Thomas",
+      "role": "Editor",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Budgeting",
+        "Final Cut Pro",
+        "ARRI Alexa"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Manchester"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Wilson",
+      "role": "Stunt Coordinator",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Maya",
+        "Color Grading",
+        "Steadicam",
+        "Foley",
+        "Storyboarding"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Rome"
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Wilson",
+      "role": "Director",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Logic Pro",
+        "RED Camera",
+        "Cinema 4D",
+        "Foley",
+        "Color Grading",
+        "Maya",
+        "Final Cut Pro",
+        "Avid Media Composer"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "New York"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Brown",
+      "role": "Producer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Steadicam",
+        "Adobe Premiere Pro",
+        "Foley"
+      ],
+      "experience": "Lead Editor - \"Midnight Stories\" (2023)",
+      "location": "Hamburg"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Lopez",
+      "role": "Cinematographer",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Steadicam",
+        "Script Analysis",
+        "Maya",
+        "Pro Tools",
+        "Adobe Premiere Pro"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "Valencia"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Moore",
+      "role": "Costume Designer",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "ARRI Alexa",
+        "RED Camera",
+        "After Effects",
+        "Foley"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Madrid"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "role": "Editor",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Script Analysis",
+        "ARRI Alexa",
+        "Motion Graphics",
+        "After Effects"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Kolkata"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Rodriguez",
+      "role": "Location Manager",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Adobe Premiere Pro",
+        "Logic Pro",
+        "Foley",
+        "Steadicam",
+        "Drone Operation",
+        "Maya",
+        "Final Cut Pro"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Lyon"
+    },
+    {
+      "firstName": "Ashley",
+      "lastName": "Johnson",
+      "role": "Director",
+      "bio": "Sound engineer specializing in location recording and post-production audio mixing.",
+      "skills": [
+        "Motion Graphics",
+        "Blender",
+        "Steadicam",
+        "Storyboarding",
+        "Foley",
+        "Drone Operation"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Thomas",
+      "role": "Sound Designer",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Foley",
+        "Cinema 4D",
+        "Pro Tools",
+        "ARRI Alexa",
+        "RED Camera"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "role": "Director",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Budgeting",
+        "Script Analysis",
+        "Adobe Premiere Pro",
+        "Logic Pro",
+        "Blender",
+        "Final Cut Pro",
+        "Pro Tools"
+      ],
+      "experience": "Script Supervisor - \"Detective Stories\" (2022)",
+      "location": "Atlanta"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Lee",
+      "role": "Production Designer",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Color Grading",
+        "Foley",
+        "Pro Tools",
+        "Adobe Premiere Pro",
+        "Final Cut Pro",
+        "Motion Graphics",
+        "Cinema 4D"
+      ],
+      "experience": "Gaffer - \"Commercial Campaign\" (2023)",
+      "location": "Madrid"
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Garcia",
+      "role": "Assistant Director",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Logic Pro",
+        "Final Cut Pro",
+        "RED Camera",
+        "Motion Graphics",
+        "ARRI Alexa",
+        "Cinema 4D",
+        "Color Grading",
+        "Budgeting"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Lyon"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Brown",
+      "role": "Director",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Script Analysis",
+        "Final Cut Pro",
+        "Storyboarding",
+        "Logic Pro",
+        "ARRI Alexa",
+        "Budgeting",
+        "Drone Operation",
+        "Avid Media Composer"
+      ],
+      "experience": "Sound Designer - \"Whispers in the Dark\" (2022)",
+      "location": "Los Angeles"
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Thomas",
+      "role": "Makeup Artist",
+      "bio": "Sound engineer specializing in location recording and post-production audio mixing.",
+      "skills": [
+        "Logic Pro",
+        "Pro Tools",
+        "Final Cut Pro",
+        "Foley",
+        "Drone Operation",
+        "Motion Graphics",
+        "After Effects"
+      ],
+      "experience": "Director of Photography - \"Urban Legends\" (2022)",
+      "location": "London"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Perez",
+      "role": "Script Supervisor",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Storyboarding",
+        "Budgeting",
+        "Color Grading"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Hyderabad"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Anderson",
+      "role": "Boom Operator",
+      "bio": "Production designer with extensive experience in period films and television series.",
+      "skills": [
+        "Cinema 4D",
+        "Color Grading",
+        "Motion Graphics"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Austin"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Jones",
+      "role": "Makeup Artist",
+      "bio": "Award-winning filmmaker with over 15 years of experience in documentary and narrative film production.",
+      "skills": [
+        "Logic Pro",
+        "Steadicam",
+        "Motion Graphics",
+        "Drone Operation",
+        "Cinema 4D",
+        "Adobe Premiere Pro",
+        "Storyboarding",
+        "Script Analysis"
+      ],
+      "experience": "VFX Supervisor - \"Digital Dreams\" (2023)",
+      "location": "Munich"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Lee",
+      "role": "Screenwriter",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Steadicam",
+        "Script Analysis",
+        "After Effects",
+        "Storyboarding",
+        "Foley",
+        "Drone Operation",
+        "RED Camera"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Paris"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Jackson",
+      "role": "Editor",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Drone Operation",
+        "Storyboarding",
+        "Pro Tools",
+        "Cinema 4D",
+        "Steadicam"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Toronto"
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Wilson",
+      "role": "Makeup Artist",
+      "bio": "Visual effects artist with experience in both practical effects and digital compositing.",
+      "skills": [
+        "Steadicam",
+        "Budgeting",
+        "Cinema 4D",
+        "Storyboarding",
+        "Foley",
+        "Blender",
+        "Adobe Premiere Pro",
+        "Avid Media Composer"
+      ],
+      "experience": "Casting Director - \"Love in the City\" (2023)",
+      "location": "Berlin"
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Lopez",
+      "role": "Producer",
+      "bio": "Experienced cinematographer specializing in natural light photography and handheld camera work.",
+      "skills": [
+        "Drone Operation",
+        "Color Grading",
+        "Maya",
+        "Adobe Premiere Pro",
+        "Avid Media Composer",
+        "Budgeting",
+        "Motion Graphics"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Los Angeles"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Gonzalez",
+      "role": "Screenwriter",
+      "bio": "Post-production specialist with expertise in color grading, sound design, and visual effects.",
+      "skills": [
+        "Avid Media Composer",
+        "Color Grading",
+        "Motion Graphics",
+        "Adobe Premiere Pro",
+        "Maya",
+        "Pro Tools",
+        "Blender"
+      ],
+      "experience": "Production Designer - \"The Last Dance\" (2023)",
+      "location": "Mumbai"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Williams",
+      "role": "Sound Designer",
+      "bio": "Sound engineer specializing in location recording and post-production audio mixing.",
+      "skills": [
+        "ARRI Alexa",
+        "Pro Tools",
+        "Logic Pro",
+        "Steadicam",
+        "After Effects"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "Mumbai"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Thomas",
+      "role": "Screenwriter",
+      "bio": "Creative producer with a proven track record of successful independent film projects.",
+      "skills": [
+        "Drone Operation",
+        "Maya",
+        "Avid Media Composer",
+        "RED Camera"
+      ],
+      "experience": "Makeup Artist - \"Fantasy Realm\" (2022)",
+      "location": "San Francisco"
+    }
+  ],
+  "locations": {
+    "United States": [
+      "Los Angeles",
+      "New York",
+      "Atlanta",
+      "Chicago",
+      "Austin",
+      "San Francisco"
+    ],
+    "India": [
+      "Mumbai",
+      "Chennai",
+      "Hyderabad",
+      "Kolkata",
+      "Pune",
+      "Bangalore"
+    ],
+    "United Kingdom": [
+      "London",
+      "Manchester",
+      "Glasgow",
+      "Cardiff"
+    ],
+    "France": [
+      "Paris",
+      "Cannes",
+      "Lyon"
+    ],
+    "Germany": [
+      "Berlin",
+      "Munich",
+      "Hamburg"
+    ],
+    "Italy": [
+      "Rome",
+      "Milan",
+      "Venice"
+    ],
+    "Spain": [
+      "Madrid",
+      "Barcelona",
+      "Valencia"
+    ],
+    "Canada": [
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ]
+  },
+  "categories": [
+    "Director",
+    "Producer",
+    "Cinematographer",
+    "Editor",
+    "Sound Designer",
+    "Production Designer",
+    "Costume Designer",
+    "Makeup Artist",
+    "Visual Effects",
+    "Screenwriter",
+    "Casting Director",
+    "Location Manager",
+    "Script Supervisor",
+    "Gaffer",
+    "Grip",
+    "Boom Operator",
+    "Assistant Director",
+    "Stunt Coordinator"
+  ],
+  "skills": [
+    "Final Cut Pro",
+    "Avid Media Composer",
+    "Adobe Premiere Pro",
+    "After Effects",
+    "Cinema 4D",
+    "Maya",
+    "Blender",
+    "Pro Tools",
+    "Logic Pro",
+    "RED Camera",
+    "ARRI Alexa",
+    "Steadicam",
+    "Drone Operation",
+    "Color Grading",
+    "Foley",
+    "Motion Graphics",
+    "Storyboarding",
+    "Script Analysis",
+    "Budgeting"
+  ],
+  "scraped_at": "2025-07-03T12:50:42.089284"
+}

@@ -5,9 +5,12 @@ const path = require('path');
 
 const prisma = new PrismaClient();
 
+// Keep track of used emails to avoid duplicates
+const usedEmails = new Set();
+
 async function loadScrapedData() {
   try {
-    const dataPath = path.join(__dirname, 'film_industry_data.json');
+    const dataPath = path.join(__dirname, '..', 'film_industry_data.json');
     const rawData = fs.readFileSync(dataPath, 'utf8');
     return JSON.parse(rawData);
   } catch (error) {
@@ -25,6 +28,17 @@ function getRandomElements(array, min, max) {
   const count = Math.floor(Math.random() * (max - min + 1)) + min;
   const shuffled = [...array].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
+}
+
+function generateUniqueEmail(firstName, lastName, domain, index = 0) {
+  const baseEmail = `${firstName.toLowerCase()}.${lastName.toLowerCase()}${index > 0 ? index : ''}@${domain}.com`;
+  
+  if (usedEmails.has(baseEmail)) {
+    return generateUniqueEmail(firstName, lastName, domain, index + 1);
+  }
+  
+  usedEmails.add(baseEmail);
+  return baseEmail;
 }
 
 async function main() {
@@ -54,6 +68,9 @@ async function main() {
   await prisma.roles.deleteMany({});
   await prisma.resource.deleteMany({});
   console.log('Database cleaned up.');
+
+  // Clear used emails set since we cleaned the database
+  usedEmails.clear();
 
   // 2. Seed Countries and Cities from scraped data
   console.log('Seeding countries and cities...');
@@ -128,7 +145,11 @@ async function main() {
   const recruiterCount = Math.floor(scrapedData.professionals.length * 0.2);
   for (let i = 0; i < recruiterCount; i++) {
     const professional = scrapedData.professionals[i];
-    const email = `${professional.firstName.toLowerCase()}.${professional.lastName.toLowerCase()}@${getRandomElement(['films', 'studio', 'production', 'entertainment'])}.com`;
+    const email = generateUniqueEmail(
+      professional.firstName, 
+      professional.lastName, 
+      getRandomElement(['films', 'studio', 'production', 'entertainment'])
+    );
     
     // Find matching city
     let targetCity = cities.find(c => c.name === professional.location);
@@ -137,46 +158,55 @@ async function main() {
     }
     const targetCountry = countries.find(c => c.id === targetCity.countryId);
 
-    const user = await prisma.user.create({
-      data: {
-        email,
-        password: 'hashedPassword123', // In production, use proper hashing
-        role_id: recruiterRole.id,
-        is_verified: true,
-        user_profile: {
-          create: {
-            firstName: professional.firstName,
-            lastName: professional.lastName,
-            avatarUrl: `https://api.dicebear.com/7.x/personas/svg?seed=${professional.firstName}${professional.lastName}`,
-            Bio: professional.bio,
-            Availability: 'Hiring',
-            Website: `https://${professional.firstName.toLowerCase()}${professional.lastName.toLowerCase()}.com`,
-            publicEmail: email,
-            role: professional.role,
-            city_id: targetCity.id,
-            country_id: targetCountry.id,
-            social_links: {
-              create: {
-                linkedin: `https://linkedin.com/in/${professional.firstName.toLowerCase()}-${professional.lastName.toLowerCase()}`,
-                x: `https://x.com/${professional.firstName.toLowerCase()}_${professional.lastName.toLowerCase()}`,
-                instagram: `https://instagram.com/${professional.firstName.toLowerCase()}.${professional.lastName.toLowerCase()}`
+    try {
+      const user = await prisma.user.create({
+        data: {
+          email,
+          password: 'hashedPassword123', // In production, use proper hashing
+          role_id: recruiterRole.id,
+          is_verified: true,
+          user_profile: {
+            create: {
+              firstName: professional.firstName,
+              lastName: professional.lastName,
+              avatarUrl: `https://api.dicebear.com/7.x/personas/svg?seed=${professional.firstName}${professional.lastName}`,
+              Bio: professional.bio,
+              Availability: 'Hiring',
+              Website: `https://${professional.firstName.toLowerCase()}${professional.lastName.toLowerCase()}.com`,
+              publicEmail: email,
+              role: professional.role,
+              city_id: targetCity.id,
+              country_id: targetCountry.id,
+              social_links: {
+                create: {
+                  linkedin: `https://linkedin.com/in/${professional.firstName.toLowerCase()}-${professional.lastName.toLowerCase()}`,
+                  x: `https://x.com/${professional.firstName.toLowerCase()}_${professional.lastName.toLowerCase()}`,
+                  instagram: `https://instagram.com/${professional.firstName.toLowerCase()}.${professional.lastName.toLowerCase()}`
+                }
               }
-            }
+            },
           },
         },
-      },
-      include: {
-        user_profile: true,
-        role: true,
-      },
-    });
-    createdUsers.push(user);
+        include: {
+          user_profile: true,
+          role: true,
+        },
+      });
+      createdUsers.push(user);
+      console.log(`Created recruiter: ${email}`);
+    } catch (error) {
+      console.error(`Failed to create recruiter ${email}:`, error.message);
+    }
   }
 
   // Create candidates (80% of users)
   for (let i = recruiterCount; i < scrapedData.professionals.length; i++) {
     const professional = scrapedData.professionals[i];
-    const email = `${professional.firstName.toLowerCase()}.${professional.lastName.toLowerCase()}@${getRandomElement(['gmail', 'yahoo', 'outlook', 'icloud'])}.com`;
+    const email = generateUniqueEmail(
+      professional.firstName, 
+      professional.lastName, 
+      getRandomElement(['gmail', 'yahoo', 'outlook', 'icloud'])
+    );
     
     // Find matching city
     let targetCity = cities.find(c => c.name === professional.location);
@@ -185,40 +215,47 @@ async function main() {
     }
     const targetCountry = countries.find(c => c.id === targetCity.countryId);
 
-    const user = await prisma.user.create({
-      data: {
-        email,
-        password: 'hashedPassword123',
-        role_id: candidateRole.id,
-        is_verified: true,
-        user_profile: {
-          create: {
-            firstName: professional.firstName,
-            lastName: professional.lastName,
-            avatarUrl: `https://api.dicebear.com/7.x/personas/svg?seed=${professional.firstName}${professional.lastName}`,
-            Bio: professional.bio,
-            Availability: getRandomElement(['Available', 'Busy', 'Between Projects', 'Open to Opportunities']),
-            Website: `https://${professional.firstName.toLowerCase()}${professional.lastName.toLowerCase()}.com`,
-            publicEmail: email,
-            role: professional.role,
-            city_id: targetCity.id,
-            country_id: targetCountry.id,
-            social_links: {
-              create: {
-                linkedin: `https://linkedin.com/in/${professional.firstName.toLowerCase()}-${professional.lastName.toLowerCase()}`,
-                x: `https://x.com/${professional.firstName.toLowerCase()}_${professional.lastName.toLowerCase()}`,
-                instagram: `https://instagram.com/${professional.firstName.toLowerCase()}.${professional.lastName.toLowerCase()}`
+    try {
+      const user = await prisma.user.create({
+        data: {
+          email,
+          password: 'hashedPassword123',
+          role_id: candidateRole.id,
+          is_verified: true,
+          user_profile: {
+            create: {
+              firstName: professional.firstName,
+              lastName: professional.lastName,
+              avatarUrl: `https://api.dicebear.com/7.x/personas/svg?seed=${professional.firstName}${professional.lastName}`,
+              Bio: professional.bio,
+              Availability: getRandomElement(['Available', 'Busy', 'Between Projects', 'Open to Opportunities']),
+              Website: `https://${professional.firstName.toLowerCase()}${professional.lastName.toLowerCase()}.com`,
+              publicEmail: email,
+              role: professional.role,
+              city_id: targetCity.id,
+              country_id: targetCountry.id,
+              social_links: {
+                create: {
+                  linkedin: `https://linkedin.com/in/${professional.firstName.toLowerCase()}-${professional.lastName.toLowerCase()}`,
+                  x: `https://x.com/${professional.firstName.toLowerCase()}_${professional.lastName.toLowerCase()}`,
+                  instagram: `https://instagram.com/${professional.firstName.toLowerCase()}.${professional.lastName.toLowerCase()}`
+                }
               }
-            }
+            },
           },
         },
-      },
-      include: {
-        user_profile: true,
-        role: true,
-      },
-    });
-    createdUsers.push(user);
+        include: {
+          user_profile: true,
+          role: true,
+        },
+      });
+      createdUsers.push(user);
+      if (i % 10 === 0) {
+        console.log(`Created ${i - recruiterCount + 1} candidates...`);
+      }
+    } catch (error) {
+      console.error(`Failed to create candidate ${email}:`, error.message);
+    }
   }
 
   console.log(`Created ${createdUsers.length} users (${recruiterCount} recruiters, ${createdUsers.length - recruiterCount} candidates)`);
@@ -229,31 +266,36 @@ async function main() {
 
   for (let i = 0; i < candidateUsers.length; i++) {
     const user = candidateUsers[i];
-    const professional = scrapedData.professionals[i + recruiterCount];
+    const professionalIndex = i + recruiterCount;
+    const professional = scrapedData.professionals[professionalIndex];
     
-    if (user.user_profile) {
+    if (user.user_profile && professional) {
       // Add skills from scraped data
       const skillsToAdd = professional.skills || getRandomElements(scrapedData.skills, 3, 8);
-      await prisma.skills.createMany({
-        data: skillsToAdd.map(skillName => ({
-          name: skillName,
-          user_profile_id: user.user_profile.id
-        }))
-      });
-
-      // Add work experience
-      const experienceCount = Math.floor(Math.random() * 3) + 1;
-      for (let j = 0; j < experienceCount; j++) {
-        const experienceYear = 2024 - Math.floor(Math.random() * 10);
-        await prisma.work_experience.create({
-          data: {
-            user_profile_id: user.user_profile.id,
-            title: getRandomElement(scrapedData.categories),
-            role: professional.experience || `${getRandomElement(scrapedData.categories)} - ${getRandomElement(['Feature Film', 'TV Series', 'Commercial', 'Documentary', 'Short Film'])}`,
-            year: experienceYear,
-            description: `Professional ${getRandomElement(scrapedData.categories).toLowerCase()} work on various film and television projects.`
-          }
+      try {
+        await prisma.skills.createMany({
+          data: skillsToAdd.map(skillName => ({
+            name: skillName,
+            user_profile_id: user.user_profile.id
+          }))
         });
+
+        // Add work experience
+        const experienceCount = Math.floor(Math.random() * 3) + 1;
+        for (let j = 0; j < experienceCount; j++) {
+          const experienceYear = 2024 - Math.floor(Math.random() * 10);
+          await prisma.work_experience.create({
+            data: {
+              user_profile_id: user.user_profile.id,
+              title: getRandomElement(scrapedData.categories),
+              role: professional.experience || `${getRandomElement(scrapedData.categories)} - ${getRandomElement(['Feature Film', 'TV Series', 'Commercial', 'Documentary', 'Short Film'])}`,
+              year: experienceYear,
+              description: `Professional ${getRandomElement(scrapedData.categories).toLowerCase()} work on various film and television projects.`
+            }
+          });
+        }
+      } catch (error) {
+        console.error(`Failed to add skills/experience for user ${user.email}:`, error.message);
       }
     }
   }
@@ -264,7 +306,8 @@ async function main() {
   const recruiterUsers = createdUsers.filter(u => u.role.name === 'RECRUITER');
   const createdJobs = [];
 
-  for (let i = 0; i < scrapedData.jobs.length && i < recruiterUsers.length * 3; i++) {
+  const maxJobs = Math.min(scrapedData.jobs.length, recruiterUsers.length * 3);
+  for (let i = 0; i < maxJobs; i++) {
     const job = scrapedData.jobs[i];
     const recruiter = recruiterUsers[i % recruiterUsers.length];
     
@@ -288,22 +331,29 @@ async function main() {
     const minSalary = Math.floor((40000 + Math.random() * 40000) * salaryMultiplier);
     const maxSalary = Math.floor(minSalary * (1.2 + Math.random() * 0.8));
 
-    const jobPost = await prisma.job_posts.create({
-      data: {
-        user_id: recruiter.id,
-        title: job.title,
-        description: job.description,
-        MinSalary: minSalary,
-        MaxSalary: maxSalary,
-        IsAccepting: true,
-        currency_id: getCurrencyForCountry(currencies, jobCountry.name),
-        job_type_id: getRandomElement(jobTypes).id,
-        category_id: jobCategory.id,
-        city_id: jobCity.id,
-        country_id: jobCountry.id,
-      },
-    });
-    createdJobs.push(jobPost);
+    try {
+      const jobPost = await prisma.job_posts.create({
+        data: {
+          user_id: recruiter.id,
+          title: job.title,
+          description: job.description,
+          MinSalary: minSalary,
+          MaxSalary: maxSalary,
+          IsAccepting: true,
+          currency_id: getCurrencyForCountry(currencies, jobCountry.name),
+          job_type_id: getRandomElement(jobTypes).id,
+          category_id: jobCategory.id,
+          city_id: jobCity.id,
+          country_id: jobCountry.id,
+        },
+      });
+      createdJobs.push(jobPost);
+      if (i % 10 === 0) {
+        console.log(`Created ${i + 1} job posts...`);
+      }
+    } catch (error) {
+      console.error(`Failed to create job post "${job.title}":`, error.message);
+    }
   }
 
   console.log(`Created ${createdJobs.length} job posts from scraped data`);
@@ -326,10 +376,12 @@ async function main() {
     }
   }
 
-  await prisma.job_applications.createMany({
-    data: applications,
-    skipDuplicates: true,
-  });
+  if (applications.length > 0) {
+    await prisma.job_applications.createMany({
+      data: applications,
+      skipDuplicates: true,
+    });
+  }
 
   console.log(`Created ${applications.length} job applications`);
 

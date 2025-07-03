@@ -167,7 +167,7 @@ main() {
         fi
         
         # Source the shell to get uv in PATH
-        export PATH="$HOME/.cargo/bin:$PATH"
+        # export PATH="$HOME/.cargo/bin:$PATH"
         
         if command_exists uv; then
             print_success "uv installed successfully"
@@ -239,12 +239,17 @@ EOF
 
     # Step 6: Set up Prisma
     print_step "Setting up Prisma database..."
-    
+
     if [[ -f "prisma/schema.prisma" ]]; then
         print_info "Generating Prisma client..."
         npx prisma generate
         print_success "Prisma client generated"
         
+        # Add this line to reset the DB and avoid interactive prompts
+        print_info "Ensuring a clean database state..."
+        npx prisma migrate reset --force
+        
+        # This command will now run without hanging
         print_info "Running database migrations..."
         npx prisma migrate dev --name init
         print_success "Database migrations completed"
